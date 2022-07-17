@@ -73,11 +73,23 @@ header nav ul li a:hover {
     box-shadow: 1px 1px 2px #aaa167;
 }
 
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
 h1, h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #222020;
+}
+
+#barber-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/razors.webp') no-repeat center center;
 }
 footer {
     display: block;
@@ -144,22 +156,6 @@ footer {
     text-align: center;
 }
 
-.content .gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 80%;
-    margin: 0 auto;
-}
-.content .gallery div {
-    margin: 14px 45px;
-    height: calc(250 / 284 * (25vw - 10%));
-    overflow: hidden;
-    border-radius: 28px;
-}
-.content .gallery img {
-    width: 100%;
-    border-radius: 28px;
-}
 
 .content .contacts {
     display: grid;
@@ -167,29 +163,19 @@ footer {
     width: 80%;
     margin: 0 auto;
 }
-.content .contacts img {
+.content .contact img {
     border: 2px solid #9D0000;
     /*width: 100%;*/
     margin-right: 20px;
 }
-.content .contacts .contacts-content {
+.content .contact .contact-content {
     background: #F0F0F0;
     border: 2px solid #9D0000;
     box-sizing: border-box;
     padding: 30px;
 }
-.content .contacts .contacts-content h3, .content .contacts .contacts-content p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 29px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: #9A344A;
-}
+
+
 .content .contacts .contacts-content p{
     font-size: 18px;
 }
@@ -245,4 +231,18 @@ footer {
         margin-right: 0px;
     }
     
+}
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #250101;
 }

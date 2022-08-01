@@ -7,91 +7,84 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
     
 <header>
-    <div class="logo">
-        <a href="index.html">
-            
-            <span>cutandfadebarbers.com</span>
-        </a>
-    </div>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="bookings.html">Bookings</a></li>
-        </ul>
-    </nav>
-</header>
-
-<section class="content">
-    <h1>Services</h1>
-    <article class="services-content">
-        
-        <div class="text-block">
-            <h2>Kids Haircuts</h2>
-            <p>From regular and classic cuts to trendy hairstyles that will easily set your kid apart.  The comb over and low taper fade, a French crop, and short textured bangs. There are also more daring options for the boys who want to stand out from the crowd.</p>
-        </div>
-    </article>
-    <article class="services-content">
-        
-        <div class="text-block">
-            <h2>Men's haircut</h2>
+    <div class="container">
+        <header>
+          <div class="topnav">
+            <a href="index.html" class="active">Cut & Fade Barbers</a>
+            <div id="myLinks">
+              <a href="services.html">Services</a>
+              <a href="contact.html">Contact</a>
+              <a href="bookings.html">Bookings</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </header>
+        <section class="content main-content">
+          <h1 class="center">Services</h1>
+        </section>
+        <section id="barber-outer">
+          <div id="barber-image">
+            <img
+              src="assets/images/pexels-cottonbro-3998408.jpg"
+              alt="cut-with-scizors"
+            />
+          </div>
+          
+    <article class="services-content"> 
+        <div id="text-block1">
+        <div class="text-block1-kids-men">
+             <h2>Kids Haircuts <i class="fa-solid fa-scissors"></i></h2>
+            <p>From regular and classic cuts to trendy hairstyles that will easily set your kid apart.  The comb over and low taper fade, a French crop, and short textured bangs.</p>
+            <br>
+            <h2>Men's Haircuts <i class="fa-solid fa-scissors"></i></h2>
             <p>Choosing a haircut can be a daunting task. Our stylists can guide you through the buzz cuts and blowouts choosing the most suitable and unique look for you. Various styles are offered: buzz and crew cuts, ivy League hairstyles, military styles,  French crops, fades, spikes and undercuts. </p>
-        </div>
-    </article>
-    <article class="services-content">
-        
-        <div class="text-block">
-            <h2>Hot Towel Shave</h2>
-            <p>hot towel shave soothes one's irritated skin resulting in healthy skin. It also helps in removing the ingrown hairs. Hot towel shape is beneficial as it removes the unnecessary oil, dirt from the skin and moisturizes the skin and cleans it and gives the skin a rejuvenating effect.</p>
         </div>
     </article>
     
     <article class="services-content">
-        
-        <div class="text-block">
-            <h2>Beard trims</h2>
+        <div id="text-block2">        
+        <div class="text-block2-shave-beard">
+            <h2>Hot Towel Shave <i class="fa-solid fa-scissors"></i></h2>
+            <p>Hot towel shave soothes one's irritated skin resulting in healthy skin helping removing the ingrown hairs, the unnecessary oil, dirt from the skin and moisturising the skin.</p>
+            <br>
+            <h2>Beard Trims <i class="fa-solid fa-scissors"></i></h2>
             <p>Trimming a beard prevents flyaways, split ends, dryness, and dishevelment. It ensures that your beard complements your face each and every day, especially if it's working well with its shape.</p>
         </div>
     </article>
-    <article class="services-content">
-       
-        <div class="text-block">
-            <h2>Perms</h2>
-            <p>The perm hair permanently set waves for men. Curly hair has resurfaced in popularity among men, and thanks to current perming methods, it’s never been easier to try out a new style ranging from tight to lose, short to long, and with a fade or undercut on the sides.</p>
-        </div>
-    </article>
+    
+      </article>
+    </section>
 
-    <article class="services-content">
-       
-        <div class="text-block">
-            <h2>Hair Colours</h2>
-            <p>New hair colour can give both your appearance and confidence a real boost. Covering grey hair, going platinum, fashion haircolours for edgy looks. Our stylists will recommend you the best products for maintaining your new hair colour.</p>
-        </div>
-    </article>
-</section>
-
-<footer>
-    <ul class="social-networks">
-        <li>
-            <a href="https://www.facebook.com/cutandfadebarbers" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/cutandfadebarbers/" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-        </li>
-        
-    </ul>
-    ©Designed by cutandfadebarbers
-</footer>
-<!-- font awesome script  -->
-<script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-</body>
+    <footer>
+        <div class="row social" align="center">
+            <a href="https://www.facebook.com/cutandfadebarbers" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"
+            ><i class="fab fa-facebook"></i></a>
+           
+            <a href="https://www.instagram.com/cutandfadebarbers/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"
+            ><i class="fab fa-instagram"></i></a>
+          </div>
+        <p class="center">©2022 Designed by cutandfadebarbers</p>
+      </footer>
+      <!-- font awesome script  -->
+      <script src="https://kit.fontawesome.com/ec3151f7b6.js" crossorigin="anonymous"></script>
+      <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
+    </div>
+  </body>
 </html>

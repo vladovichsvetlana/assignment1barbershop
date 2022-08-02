@@ -230,3 +230,12 @@ form p {
           display: inline;
         }
       }
+      @media screen and (max-width: 1425px) {
+        #main-menu {
+          display: block;
+        }
+        #hamburger-menu {
+          display: none;
+        }
+      }
+

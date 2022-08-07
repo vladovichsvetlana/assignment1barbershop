@@ -47,6 +47,7 @@ Media
 The photos used for all sections of the website are taken from free images of https://www.pexels.com.
 
 Content
+
 The text for the pages is written by Cut and Fade Barbers. 
 The icons in the footer were taken from Font Awesome
 

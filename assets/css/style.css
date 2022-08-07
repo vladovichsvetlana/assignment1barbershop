@@ -5,52 +5,45 @@
   border: none;
   font-family: "Roboto Slab", serif;
 }
-
 img {
   width: 100%;
 }
-
 h1 {
   padding: 1.5rem;
   font-size: 2rem;
   color: white;
 }
-
 .center {
   text-align: center;
 }
-
 .almost-white {
   color: #dcefef;
 }
-
 .social-networks {
   text-align: center;
 }
-
 .social-networks i {
   font-size: 100%;
   margin: 5%;
   padding: 1%;
   color: goldenrod;
 }
-
 .row social {
   text-align: center;
 }
-
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
   background-color: #23272f;
   position: relative;
 }
-
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
 }
-
+.fa-bars {
+  color: white;
+}
 /* Style navigation menu links */
 .topnav a {
   color: white;
@@ -59,7 +52,6 @@ h1 {
   font-size: 20px;
   display: block;
 }
-
 /* Style the hamburger menu */
 .topnav a.icon {
   background: #23272f;
@@ -68,19 +60,16 @@ h1 {
   right: 0;
   top: 0;
 }
-
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #deac3f;
+  background-color: #644708;
   color: white;
 }
-
 .container {
   max-width: 1140px;
   width: 100%;
@@ -91,58 +80,45 @@ h1 {
   background-color: #3a3b3e;
   color: #f3f7f7;
 }
-
 /* Style the services page */
-
 #content-services {
   padding: 30px 0;
   margin: 0;
 }
-
 #text-block1 {
   padding-top: 40px;
   width: 50%;
   float: left;
 }
-
 #text-block2 {
   padding-top: 40px;
   width: 50%;
   float: left;
 }
-
 .text-block1-kids-men-heading {
   width: 60%;
   float: left;
   line-height: 20px;
   clear: both;
   margin-bottom: 50px;
-  
 }
-
 h2 {
-  color:#deac3f;
+  color: #deac3f;
 }
-
 .text-block1-kids-men-heading p {
   text-align: left;
 }
-
 .text-block2-shave-beard-heading {
   width: 60%;
   float: left;
   line-height: 20px;
   clear: both;
   margin-bottom: 50px;
-  
 }
-
 .text-block2-shave-beard-heading p {
   text-align: left;
 }
-
 /* styling contact page */
-
 .contact-content {
   text-align: center;
   font-size: 150%;
@@ -151,14 +127,12 @@ h2 {
   color: goldenrod;
   position: relative;
 }
-
 .services-content {
   text-align: center;
   position: relative;
 }
 /* Social Media Links*/
-
-.social a{
+.social a {
   font-size: 30px;
   color: #ecd83f;
   border-style: groove;
@@ -166,17 +140,16 @@ h2 {
   padding: 10px;
   margin: 10px;
   border-radius: 6px;
-  display: inline-block
+  display: inline-block;
 }
-
 .social {
   padding: 5px;
   margin: 5px;
   border-radius: 6px;
   position: relative;
   overflow: hidden;
+  width: 100%;
 }
-
 /* Social Media Links on mouse hover */
 .social a:hover {
   background-color: rgb(249, 244, 244);
@@ -186,64 +159,60 @@ h2 {
   -o-transition: background-color 0.6s ease-out, color 0.6s ease-out;
   transition: background-color 0.6s ease-out, color 0.6s ease-out;
 }
-
 /* Reservation online */
-
 #barber-image2 {
   height: auto;
   width: 100%;
-  background: url('../images/img_razors.webp') no-repeat center center;
+  background: url("../images/img_razors.webp") no-repeat center center;
 }
 form {
   display: grid;
   grid-row-gap: 5px;
-  color:#ecd83f;
- }
-  .heading {
-    font-size: 35px;
-    text-transform: uppercase;
-    color:rgb(225, 207, 84);
-    }
-   
+  color: #ecd83f;
+}
+.heading {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: rgb(225, 207, 84);
+}
 form p {
-      font-weight: 600;
-      color: gold;
+  font-weight: 600;
+  color: gold;
+}
+.form-field {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(225, 207, 84);
+  border: 2px solid #decf4a;
+  padding: 16px 28px;
+}
+input,
+select {
+  padding: 10px 15px;
+}
+button {
+  background-color: white;
+  border: 2px solid #decf4a;
+  color: gold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 16px 28px;
+}
+@media screen and (max-width: 750px) {
+  #main-menu {
+    display: none;
   }
-    .form-field {
-      display: flex;
-      justify-content: space-between;
-      color:rgb(225, 207, 84);
-      border: 2px solid #decf4a; 
-      padding: 16px 28px;
-
-      }
-      input,select {
-      padding: 10px 15px;
-      }
-      button {
-        background-color: white; 
-        border: 2px solid #decf4a; 
-        color: gold;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        padding: 16px 28px;
-      }
-      @media screen and (max-width: 750px) {
-        #main-menu {
-          display: none;
-        }
-        #hamburger-menu {
-          display: inline;
-        }
-      }
-      @media screen and (max-width: 1425px) {
-        #main-menu {
-          display: block;
-        }
-        #hamburger-menu {
-          display: none;
-        }
-      }
-
+  #hamburger-menu {
+    display: inline;
+  }
+}
+@media screen and (max-width: 1425px) {
+  #main-menu {
+    display: block;
+  }
+  #hamburger-menu {
+    display: none;
+  }
+}

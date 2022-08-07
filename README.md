@@ -21,6 +21,7 @@ Services
 
 This section describes the main services such as kids’ haircuts, men’s haircuts, hot towel shave and beard trims. The page also lists the types of haircuts men, and their son can try at this barbershop.
 The text is placed underneath the image of the barber with his tools and a customer having a cut and a beard trim. The bottom of the page has social media buttons with a hover on feature in the footer section of the page. 
+
 Contact
  
 This section has full contact details of the barbershop, google map showing directions to the location, opening hours and contact mobile number. The social media buttons are also placed in the footer section of the page. 
@@ -29,3 +30,12 @@ Bookings
 
  
 The Bookings page offers the users to book an appointment for the service having the following tabs: name of the customer, email of the customer, date of the appointment, time and the number of people for the service allowing to choose from 1 person to 5+. The social media buttons are also placed in the footer section of the page. 
+
+Media
+
+The photos used for all sections of the website are taken from free images of https://www.pexels.com.
+
+Content
+The text for the pages is written by Cut and Fade Barbers. 
+The icons in the footer were taken from Font Awesome
+

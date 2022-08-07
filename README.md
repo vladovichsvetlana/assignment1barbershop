@@ -1,5 +1,5 @@
 # assignment1barbershop
-Welcome to Cut & Fade Barbershop website  (https://cutandfadebarbers.com)!
+Welcome to Cut & Fade Barbershop website  (https://github.com/vladovichsvetlana/assignment1barbershop.git)!
 CutandFadeBarbers website is a site advertising the grooming services of the local barbershop in Navan town. The site is targeted towards men and their sons who are looking for various hairdressing services in Navan. 
 
 A fully responsive website is made from scratch with the help of HTML and CSS.

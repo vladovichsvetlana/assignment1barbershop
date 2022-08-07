@@ -51,5 +51,47 @@ The photos used for all sections of the website are taken from free images of ht
 Content
 
 The text for the pages is written by Cut and Fade Barbers. 
-The icons in the footer were taken from Font Awesome
+The icons in the footer were taken from Font Awesome.
+
+Testing
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+Validator Testing
+
+HTML
+
+No errors were returned when passing through the official W3C validator all html sections:
+
+![html_validator](https://user-images.githubusercontent.com/107796276/183309259-2c548883-2905-4f3e-b286-7ce59d2a4a74.jpg)
+
+![services html_validator](https://user-images.githubusercontent.com/107796276/183309260-e637892b-d625-4b9c-aa91-3dbe6d1396ad.jpg)
+
+![contact_validator](https://user-images.githubusercontent.com/107796276/183309256-9fa3a69b-5361-49e0-8dc2-af8f4ecaf913.jpg)
+
+![bookings_validation](https://user-images.githubusercontent.com/107796276/183309250-ec00040c-a988-407a-a2bf-2b7b7e9cc4da.jpg)
+
+
+CSS
+
+No errors were found when passing through the official (Jigsaw) validator:
+
+![css_validator](https://user-images.githubusercontent.com/107796276/183309254-27b7a587-9377-414c-ab49-27a0c19e5fd3.jpg)
+
+Bugs
+
+All bugs were fixed following the Html Checker notes.
+
+Deployment
+
+The site was deployed to GitHub pages and can be checked via the live link 
+
+Lighthouse statistics
+
+![lighthouse-image](https://user-images.githubusercontent.com/107796276/183309261-6a10d7ec-229a-49f7-a304-c0639e1afec9.jpg)
 

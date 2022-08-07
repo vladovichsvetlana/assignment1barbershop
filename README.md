@@ -2,6 +2,8 @@
 Welcome to Cut & Fade Barbershop website  (https://cutandfadebarbers.com)!
 CutandFadeBarbers website is a site advertising the grooming services of the local barbershop in Navan town. The site is targeted towards men and their sons who are looking for various hairdressing services in Navan. 
 
+A fully responsive website is made from scratch with the help of HTML and CSS.
+
 ![Readme_image_landpage](https://user-images.githubusercontent.com/107796276/183288631-2729b2fd-252d-411f-9f53-9dfcaef8442e.png)
  
 Existing Features

@@ -35,6 +35,10 @@ h1 {
   color: goldenrod;
 }
 
+.row social {
+  text-align: center;
+}
+
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -148,6 +152,10 @@ h2 {
   position: relative;
 }
 
+.services-content {
+  text-align: center;
+  position: relative;
+}
 /* Social Media Links*/
 
 .social a{
@@ -162,7 +170,7 @@ h2 {
 }
 
 .social {
-  padding: 15px;
+  padding: 5px;
   margin: 5px;
   border-radius: 6px;
   position: relative;

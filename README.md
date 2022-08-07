@@ -5,6 +5,7 @@ CutandFadeBarbers website is a site advertising the grooming services of the loc
 ![Readme_image_landpage](https://user-images.githubusercontent.com/107796276/183288631-2729b2fd-252d-411f-9f53-9dfcaef8442e.png)
  
 Existing Features
+
 ![readme_image_exfeature_1](https://user-images.githubusercontent.com/107796276/183288629-7eb19ea6-fc0a-435b-b4ba-38b550b088c4.png)
 The hamburger menu, or the hamburger icon, opens up in the top right corner of the website into a side menu. When clicked on, the button reveals a hidden menu and links to: Cut and Fade Barbers (Home page), Services, Contact, Bookings and available on every page to revert back if needed. 
  

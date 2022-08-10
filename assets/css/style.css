@@ -170,6 +170,12 @@ form {
   grid-row-gap: 5px;
   color: #ecd83f;
 }
+
+.form-center {
+  display:flex;
+  justify-content: center;
+}
+
 .heading {
   font-size: 35px;
   text-transform: uppercase;
@@ -190,16 +196,18 @@ input,
 select {
   padding: 10px 15px;
 }
-button {
-  background-color: white;
-  border: 2px solid #decf4a;
-  color: gold;
+
+.button {
+  background-color: #f3ca38; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  padding: 16px 28px;
 }
+
 @media screen and (max-width: 750px) {
   #main-menu {
     display: none;

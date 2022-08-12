@@ -64,7 +64,7 @@ All bugs were fixed following the Html Checker notes.
 
 Deployment
 
-The site was deployed to GitHub pages and can be checked via the live link 
+The site was deployed to GitHub pages and can be checked via the live link https://vladovichsvetlana.github.io/assignment1barbershop/
 
 Lighthouse statistics
 

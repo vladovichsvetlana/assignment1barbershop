@@ -54,7 +54,7 @@ No errors were returned when passing through the official W3C validator all html
 
 CSS
 
-No errors were found when passing through the official (Jigsaw) validator:
+No errors were found when passing through the official W3C validator:
 
 ![css_readme](https://user-images.githubusercontent.com/107796276/183509141-f270af46-3c2c-4d26-9d57-77f086dd6203.png)
 
